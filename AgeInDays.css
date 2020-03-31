@@ -1,0 +1,37 @@
+/* Using Age Class to create a border around everything */
+/* Having everything inside Age class centered*/
+
+.Age{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Make the header bold*/
+
+.Age h1{
+    font-weight: bold;
+}
+
+/* Calling the Flexbox class and giving it the flex option along with giving it a border to make it 
+look nice*/
+/* Using the flexbox command to make things nicer*/
+
+.Flexbox{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* To give the buttons some space from one another instead of being squished together*/
+
+.Flexbox div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+
+}

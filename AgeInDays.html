@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Using a bootstrap CSS cause its much easier to design this way-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="AgeInDays.css">
+    <title>Age in Days</title>
+</head>
+<body>
+    <!-- Main Point is to get your age in terms of Days-->
+
+    <!-- Created a container for the overall program-->
+
+    <div class="Age">
+        <!-- The Main Title-->
+
+        <h1>Your Age In Days</h1>
+
+        <!-- Created a Flexbox to make things more organized-->
+
+        <div class="Flexbox">
+
+            <!-- Want to have buttons in order for the program to activate-->
+            <!-- Want to have a button to start the program-->
+            <!-- Want to have a button to reset the program so that it can be run again-->
+            <!-- The following two classes is based of the bootstrap css that is from online-->
+
+            <!-- Put each button in its own container-->
+
+            <div>
+                <button class="btn btn-primary" onclick="AgeInDay()">Age To Days</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="Reset()">Reset</button>
+            </div>
+        </div>
+
+        <!-- Going to create another container to show the result of the program-->
+
+        <div class="Flexbox">
+            <div id="Flex"></div>
+        </div>
+    </div>
+    <script src="AgeInDays.js"></script>
+</body>
+</html>
